@@ -1,0 +1,288 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Assignment3	tests/grum.py	/^class Assignment3(marks.TestCase):$/;"	c
+Assignment3	tests/hap.py	/^class Assignment3(marks.TestCase):$/;"	c
+CFLAGS	Makefile	/^CFLAGS=-pedantic -Wall -std=gnu99 -g$/;"	m
+COMPILE	tests/grum.py	/^COMPILE = "make"$/;"	v
+COMPILE	tests/hap.py	/^COMPILE = "make"$/;"	v
+Game	hub.h	/^struct Game {$/;"	s
+Player	player.h	/^struct Player {$/;"	s
+Players	hub.h	/^struct Players {$/;"	s
+TEST_LOCATION	tests/grum.py	/^TEST_LOCATION = '\/home\/users\/uqjfenw1\/public\/a3mtests'$/;"	v
+TEST_LOCATION	tests/hap.py	/^TEST_LOCATION = '\/home\/users\/uqjfenw1\/public\/a3mtests'$/;"	v
+WINNER	hub.c	12;"	d	file:
+ask_if_leaving	hub.c	/^bool ask_if_leaving(struct Game* game, struct Players* players, int player) {$/;"	f
+broadcast	hub.c	/^void broadcast(struct Players* players, char* message) {$/;"	f
+check_player_init	hub.c	/^void check_player_init(struct Players* players, int player) {$/;"	f
+check_player_statement	player.c	/^bool check_player_statement(struct Player* player, char* input, char* prefix,$/;"	f
+choose_rerolls	eait.c	/^void choose_rerolls(struct Player* player, char* rerolls, char* rolls) {$/;"	f
+choose_rerolls	habs.c	/^void choose_rerolls(struct Player* player, char* rerolls, char* rolls) {$/;"	f
+choose_rerolls	hass.c	/^void choose_rerolls(struct Player* player, char* rerolls, char* rolls) {$/;"	f
+choose_rerolls	mabs.c	/^void choose_rerolls(struct Player* player, char* rerolls, char* rolls) {$/;"	f
+choose_rerolls	science.c	/^void choose_rerolls(struct Player* player, char* rerolls, char* rolls) {$/;"	f
+count_rolls	koslShared.c	/^int count_rolls(char* rolls, int rollsNumber, char face) {$/;"	f
+damage_player	hub.c	/^bool damage_player(struct Players* players, int player, int damage) {$/;"	f
+decide_if_staying	eait.c	/^bool decide_if_staying(struct Player* player) {$/;"	f
+decide_if_staying	habs.c	/^bool decide_if_staying(struct Player* player) {$/;"	f
+decide_if_staying	hass.c	/^bool decide_if_staying(struct Player* player) {$/;"	f
+decide_if_staying	mabs.c	/^bool decide_if_staying(struct Player* player) {$/;"	f
+decide_if_staying	science.c	/^bool decide_if_staying(struct Player* player) {$/;"	f
+descriptors	hub.h	/^    int** descriptors;$/;"	m	struct:Players
+dice_sort	koslShared.c	/^int dice_sort(const void* face1, const void* face2) {$/;"	f
+disable_signal_handlers	hub.c	/^void disable_signal_handlers(void) {$/;"	f
+eliminated	hub.h	/^    bool* eliminated;$/;"	m	struct:Players
+evaluate_attack_rolls	hub.c	/^void evaluate_attack_rolls(struct Game* game, struct Players* players,$/;"	f
+evaluate_health_rolls	hub.c	/^void evaluate_health_rolls(struct Game* game, struct Players* players,$/;"	f
+evaluate_health_rolls	player.c	/^void evaluate_health_rolls(struct Player* player,$/;"	f
+evaluate_score_rolls	hub.c	/^int evaluate_score_rolls(struct Game* game, struct Players* players,$/;"	f
+game_loop	hub.c	/^void game_loop(struct Game* game, struct Players* players) {$/;"	f
+get_dice_val	koslShared.c	/^int get_dice_val(char face) {$/;"	f
+get_input	player.c	/^void get_input(char* input, char* comparison, int length) {$/;"	f
+get_response	hub.c	/^char* get_response(struct Players* players, int player, char* response,$/;"	f
+get_response_char	hub.c	/^char get_response_char(struct Players* players, int player) {$/;"	f
+get_rolls	hub.c	/^char* get_rolls(struct Game* game, char* rolls, int rollsNumber) {$/;"	f
+health	hub.h	/^    int8_t* health;$/;"	m	struct:Players
+health	player.h	/^    int8_t health;$/;"	m	struct:Player
+host	tests/grum.py	/^host = platform.node().split('.')[0]$/;"	v
+host	tests/hap.py	/^host = platform.node().split('.')[0]$/;"	v
+hubPlayer	player.h	/^    char hubPlayer;$/;"	m	struct:Player
+hub_quit	hub.c	/^void hub_quit(int exitValue) {$/;"	f
+inStLucia	hub.h	/^    uint8_t inStLucia; \/\/the player currently in St Lucia (else playerCount)$/;"	m	struct:Game
+inform_player	hub.c	/^void inform_player(struct Players* players, int player, char* message) {$/;"	f
+init_player_properties	hub.c	/^void init_player_properties(struct Players* players) {$/;"	f
+init_players	hub.c	/^void init_players(struct Players* players, uint8_t playerCount,$/;"	f
+init_signal_handlers	hub.c	/^void init_signal_handlers(void) {$/;"	f
+init_signal_handlers	player.c	/^void init_signal_handlers(void) {$/;"	f
+kill_child	hub.c	/^void kill_child(struct Players* players, int player) {$/;"	f
+kill_children	hub.c	/^void kill_children(struct Players* players) {$/;"	f
+label	player.h	/^    char label;$/;"	m	struct:Player
+load_rollfile	hub.c	/^void load_rollfile(struct Game* game, char* filename) {$/;"	f
+main	hub.c	/^int main(int argc, char** argv) {$/;"	f
+main	player.c	/^int main(int argc, char** argv) {$/;"	f
+manage_rerolls	hub.c	/^char* manage_rerolls(struct Game* game, struct Players* players, int player, $/;"	f
+marks	tests/grum.py	/^import marks$/;"	i
+marks	tests/hap.py	/^import marks$/;"	i
+nextRoll	hub.h	/^    int nextRoll; \/\/ the position of the next roll$/;"	m	struct:Game
+os	tests/grum.py	/^import os$/;"	i
+os	tests/hap.py	/^import os$/;"	i
+othersHealth	player.h	/^    int8_t* othersHealth;$/;"	m	struct:Player
+parse_input	player.c	/^void parse_input(struct Player* player, char* input) {$/;"	f
+parse_rolls	player.c	/^bool parse_rolls(struct Player* player, char* rollMessage, int offset) {$/;"	f
+platform	tests/grum.py	/^import platform$/;"	i
+platform	tests/hap.py	/^import platform$/;"	i
+playerCount	hub.h	/^    uint8_t playerCount;$/;"	m	struct:Game
+playerCount	hub.h	/^    uint8_t playerCount;$/;"	m	struct:Players
+player_init	player.c	/^void player_init(struct Player* player, int playerArgCount,$/;"	f
+player_quit	player.c	/^void player_quit(int exitValue) {$/;"	f
+players	player.h	/^    uint8_t players;$/;"	m	struct:Player
+playersLeft	player.h	/^    uint8_t playersLeft;$/;"	m	struct:Player
+playersSigintCopy	hub.c	/^static struct Players* playersSigintCopy;$/;"	v	typeref:struct:Players	file:
+pointsToWin	hub.h	/^    int pointsToWin; \/\/no. points needed to win$/;"	m	struct:Game
+print_function	tests/grum.py	/^from __future__ import print_function$/;"	i
+print_function	tests/hap.py	/^from __future__ import print_function$/;"	i
+processIds	hub.h	/^    int* processIds;$/;"	m	struct:Players
+rollCount	hub.h	/^    int rollCount; \/\/number of rolls in rolls$/;"	m	struct:Game
+rolls	hub.h	/^    char* rolls; \/\/string containing all rolls$/;"	m	struct:Game
+score	hub.h	/^    unsigned int* score;$/;"	m	struct:Players
+score	player.h	/^    uint8_t score;$/;"	m	struct:Player
+setup_class	tests/grum.py	/^  def setup_class(cls):$/;"	m	class:Assignment3
+setup_class	tests/hap.py	/^  def setup_class(cls):$/;"	m	class:Assignment3
+shutdown	hub.c	/^void shutdown(int handler) {$/;"	f
+shutil	tests/grum.py	/^import shutil$/;"	i
+shutil	tests/hap.py	/^import shutil$/;"	i
+sigpipe_handler	player.c	/^void sigpipe_handler(int signalNumber) {$/;"	f
+sys	tests/grum.py	/^import sys$/;"	i
+sys	tests/hap.py	/^import sys$/;"	i
+test_1deck1	tests/grum.py	/^  def test_1deck1(self):$/;"	m	class:Assignment3
+test_1deck1	tests/hap.py	/^  def test_1deck1(self):$/;"	m	class:Assignment3
+test_1deck2	tests/grum.py	/^  def test_1deck2(self):$/;"	m	class:Assignment3
+test_1deck2	tests/hap.py	/^  def test_1deck2(self):$/;"	m	class:Assignment3
+test_1deck3	tests/grum.py	/^  def test_1deck3(self):$/;"	m	class:Assignment3
+test_1deck3	tests/hap.py	/^  def test_1deck3(self):$/;"	m	class:Assignment3
+test_1deck4	tests/grum.py	/^  def test_1deck4(self):$/;"	m	class:Assignment3
+test_1deck4	tests/hap.py	/^  def test_1deck4(self):$/;"	m	class:Assignment3
+test_1deck5	tests/grum.py	/^  def test_1deck5(self):$/;"	m	class:Assignment3
+test_1deck5	tests/hap.py	/^  def test_1deck5(self):$/;"	m	class:Assignment3
+test_2play1	tests/grum.py	/^  def test_2play1(self):$/;"	m	class:Assignment3
+test_2play1	tests/hap.py	/^  def test_2play1(self):$/;"	m	class:Assignment3
+test_2play2	tests/grum.py	/^  def test_2play2(self):$/;"	m	class:Assignment3
+test_2play2	tests/hap.py	/^  def test_2play2(self):$/;"	m	class:Assignment3
+test_2play3	tests/grum.py	/^  def test_2play3(self):$/;"	m	class:Assignment3
+test_2play3	tests/hap.py	/^  def test_2play3(self):$/;"	m	class:Assignment3
+test_2play4	tests/grum.py	/^  def test_2play4(self):$/;"	m	class:Assignment3
+test_2play4	tests/hap.py	/^  def test_2play4(self):$/;"	m	class:Assignment3
+test_2play5	tests/grum.py	/^  def test_2play5(self):$/;"	m	class:Assignment3
+test_2play5	tests/hap.py	/^  def test_2play5(self):$/;"	m	class:Assignment3
+test_2play6	tests/grum.py	/^  def test_2play6(self):$/;"	m	class:Assignment3
+test_2play6	tests/hap.py	/^  def test_2play6(self):$/;"	m	class:Assignment3
+test_4play1	tests/grum.py	/^  def test_4play1(self):$/;"	m	class:Assignment3
+test_4play1	tests/hap.py	/^  def test_4play1(self):$/;"	m	class:Assignment3
+test_4play2	tests/grum.py	/^  def test_4play2(self):$/;"	m	class:Assignment3
+test_4play2	tests/hap.py	/^  def test_4play2(self):$/;"	m	class:Assignment3
+test_4play3	tests/grum.py	/^  def test_4play3(self):$/;"	m	class:Assignment3
+test_4play3	tests/hap.py	/^  def test_4play3(self):$/;"	m	class:Assignment3
+test_4play4	tests/grum.py	/^  def test_4play4(self):$/;"	m	class:Assignment3
+test_4play4	tests/hap.py	/^  def test_4play4(self):$/;"	m	class:Assignment3
+test_4play5	tests/grum.py	/^  def test_4play5(self):$/;"	m	class:Assignment3
+test_4play5	tests/hap.py	/^  def test_4play5(self):$/;"	m	class:Assignment3
+test_4play6	tests/grum.py	/^  def test_4play6(self):$/;"	m	class:Assignment3
+test_4play6	tests/hap.py	/^  def test_4play6(self):$/;"	m	class:Assignment3
+test_5play1	tests/grum.py	/^  def test_5play1(self):$/;"	m	class:Assignment3
+test_5play1	tests/hap.py	/^  def test_5play1(self):$/;"	m	class:Assignment3
+test_5play2	tests/grum.py	/^  def test_5play2(self):$/;"	m	class:Assignment3
+test_5play2	tests/hap.py	/^  def test_5play2(self):$/;"	m	class:Assignment3
+test_5play3	tests/grum.py	/^  def test_5play3(self):$/;"	m	class:Assignment3
+test_5play3	tests/hap.py	/^  def test_5play3(self):$/;"	m	class:Assignment3
+test_5play4	tests/grum.py	/^  def test_5play4(self):$/;"	m	class:Assignment3
+test_5play4	tests/hap.py	/^  def test_5play4(self):$/;"	m	class:Assignment3
+test_5play5	tests/grum.py	/^  def test_5play5(self):$/;"	m	class:Assignment3
+test_5play5	tests/hap.py	/^  def test_5play5(self):$/;"	m	class:Assignment3
+test_5play6	tests/grum.py	/^  def test_5play6(self):$/;"	m	class:Assignment3
+test_5play6	tests/hap.py	/^  def test_5play6(self):$/;"	m	class:Assignment3
+test_badm1	tests/grum.py	/^  def test_badm1(self):$/;"	m	class:Assignment3
+test_badm1	tests/hap.py	/^  def test_badm1(self):$/;"	m	class:Assignment3
+test_badm10	tests/grum.py	/^  def test_badm10(self):$/;"	m	class:Assignment3
+test_badm10	tests/hap.py	/^  def test_badm10(self):$/;"	m	class:Assignment3
+test_badm11	tests/grum.py	/^  def test_badm11(self):$/;"	m	class:Assignment3
+test_badm11	tests/hap.py	/^  def test_badm11(self):$/;"	m	class:Assignment3
+test_badm12	tests/grum.py	/^  def test_badm12(self):$/;"	m	class:Assignment3
+test_badm12	tests/hap.py	/^  def test_badm12(self):$/;"	m	class:Assignment3
+test_badm13	tests/grum.py	/^  def test_badm13(self):$/;"	m	class:Assignment3
+test_badm13	tests/hap.py	/^  def test_badm13(self):$/;"	m	class:Assignment3
+test_badm14	tests/grum.py	/^  def test_badm14(self):$/;"	m	class:Assignment3
+test_badm14	tests/hap.py	/^  def test_badm14(self):$/;"	m	class:Assignment3
+test_badm2	tests/grum.py	/^  def test_badm2(self):$/;"	m	class:Assignment3
+test_badm2	tests/hap.py	/^  def test_badm2(self):$/;"	m	class:Assignment3
+test_badm3	tests/grum.py	/^  def test_badm3(self):$/;"	m	class:Assignment3
+test_badm3	tests/hap.py	/^  def test_badm3(self):$/;"	m	class:Assignment3
+test_badm4	tests/grum.py	/^  def test_badm4(self):$/;"	m	class:Assignment3
+test_badm4	tests/hap.py	/^  def test_badm4(self):$/;"	m	class:Assignment3
+test_badm5	tests/grum.py	/^  def test_badm5(self):$/;"	m	class:Assignment3
+test_badm5	tests/hap.py	/^  def test_badm5(self):$/;"	m	class:Assignment3
+test_badm6	tests/grum.py	/^  def test_badm6(self):$/;"	m	class:Assignment3
+test_badm6	tests/hap.py	/^  def test_badm6(self):$/;"	m	class:Assignment3
+test_badm7	tests/grum.py	/^  def test_badm7(self):$/;"	m	class:Assignment3
+test_badm7	tests/hap.py	/^  def test_badm7(self):$/;"	m	class:Assignment3
+test_badm8	tests/grum.py	/^  def test_badm8(self):$/;"	m	class:Assignment3
+test_badm8	tests/hap.py	/^  def test_badm8(self):$/;"	m	class:Assignment3
+test_badm9	tests/grum.py	/^  def test_badm9(self):$/;"	m	class:Assignment3
+test_badm9	tests/hap.py	/^  def test_badm9(self):$/;"	m	class:Assignment3
+test_comp1	tests/grum.py	/^  def test_comp1(self):$/;"	m	class:Assignment3
+test_comp1	tests/hap.py	/^  def test_comp1(self):$/;"	m	class:Assignment3
+test_comp10	tests/grum.py	/^  def test_comp10(self):$/;"	m	class:Assignment3
+test_comp10	tests/hap.py	/^  def test_comp10(self):$/;"	m	class:Assignment3
+test_comp11	tests/grum.py	/^  def test_comp11(self):$/;"	m	class:Assignment3
+test_comp11	tests/hap.py	/^  def test_comp11(self):$/;"	m	class:Assignment3
+test_comp12	tests/grum.py	/^  def test_comp12(self):$/;"	m	class:Assignment3
+test_comp12	tests/hap.py	/^  def test_comp12(self):$/;"	m	class:Assignment3
+test_comp2	tests/grum.py	/^  def test_comp2(self):$/;"	m	class:Assignment3
+test_comp2	tests/hap.py	/^  def test_comp2(self):$/;"	m	class:Assignment3
+test_comp3	tests/grum.py	/^  def test_comp3(self):$/;"	m	class:Assignment3
+test_comp3	tests/hap.py	/^  def test_comp3(self):$/;"	m	class:Assignment3
+test_comp4	tests/grum.py	/^  def test_comp4(self):$/;"	m	class:Assignment3
+test_comp4	tests/hap.py	/^  def test_comp4(self):$/;"	m	class:Assignment3
+test_comp5	tests/grum.py	/^  def test_comp5(self):$/;"	m	class:Assignment3
+test_comp5	tests/hap.py	/^  def test_comp5(self):$/;"	m	class:Assignment3
+test_comp6	tests/grum.py	/^  def test_comp6(self):$/;"	m	class:Assignment3
+test_comp6	tests/hap.py	/^  def test_comp6(self):$/;"	m	class:Assignment3
+test_comp7	tests/grum.py	/^  def test_comp7(self):$/;"	m	class:Assignment3
+test_comp7	tests/hap.py	/^  def test_comp7(self):$/;"	m	class:Assignment3
+test_comp8	tests/grum.py	/^  def test_comp8(self):$/;"	m	class:Assignment3
+test_comp8	tests/hap.py	/^  def test_comp8(self):$/;"	m	class:Assignment3
+test_comp9	tests/grum.py	/^  def test_comp9(self):$/;"	m	class:Assignment3
+test_comp9	tests/hap.py	/^  def test_comp9(self):$/;"	m	class:Assignment3
+test_early1	tests/grum.py	/^  def test_early1(self):$/;"	m	class:Assignment3
+test_early1	tests/hap.py	/^  def test_early1(self):$/;"	m	class:Assignment3
+test_early2	tests/grum.py	/^  def test_early2(self):$/;"	m	class:Assignment3
+test_early2	tests/hap.py	/^  def test_early2(self):$/;"	m	class:Assignment3
+test_early3	tests/grum.py	/^  def test_early3(self):$/;"	m	class:Assignment3
+test_early3	tests/hap.py	/^  def test_early3(self):$/;"	m	class:Assignment3
+test_fm1	tests/grum.py	/^  def test_fm1(self):$/;"	m	class:Assignment3
+test_fm1	tests/hap.py	/^  def test_fm1(self):$/;"	m	class:Assignment3
+test_fm10	tests/grum.py	/^  def test_fm10(self):$/;"	m	class:Assignment3
+test_fm10	tests/hap.py	/^  def test_fm10(self):$/;"	m	class:Assignment3
+test_fm11	tests/grum.py	/^  def test_fm11(self):$/;"	m	class:Assignment3
+test_fm11	tests/hap.py	/^  def test_fm11(self):$/;"	m	class:Assignment3
+test_fm12	tests/grum.py	/^  def test_fm12(self):$/;"	m	class:Assignment3
+test_fm12	tests/hap.py	/^  def test_fm12(self):$/;"	m	class:Assignment3
+test_fm13	tests/grum.py	/^  def test_fm13(self):$/;"	m	class:Assignment3
+test_fm13	tests/hap.py	/^  def test_fm13(self):$/;"	m	class:Assignment3
+test_fm2	tests/grum.py	/^  def test_fm2(self):$/;"	m	class:Assignment3
+test_fm2	tests/hap.py	/^  def test_fm2(self):$/;"	m	class:Assignment3
+test_fm3	tests/grum.py	/^  def test_fm3(self):$/;"	m	class:Assignment3
+test_fm3	tests/hap.py	/^  def test_fm3(self):$/;"	m	class:Assignment3
+test_fm4	tests/grum.py	/^  def test_fm4(self):$/;"	m	class:Assignment3
+test_fm4	tests/hap.py	/^  def test_fm4(self):$/;"	m	class:Assignment3
+test_fm5	tests/grum.py	/^  def test_fm5(self):$/;"	m	class:Assignment3
+test_fm5	tests/hap.py	/^  def test_fm5(self):$/;"	m	class:Assignment3
+test_fm6	tests/grum.py	/^  def test_fm6(self):$/;"	m	class:Assignment3
+test_fm6	tests/hap.py	/^  def test_fm6(self):$/;"	m	class:Assignment3
+test_fm7	tests/grum.py	/^  def test_fm7(self):$/;"	m	class:Assignment3
+test_fm7	tests/hap.py	/^  def test_fm7(self):$/;"	m	class:Assignment3
+test_fm8	tests/grum.py	/^  def test_fm8(self):$/;"	m	class:Assignment3
+test_fm8	tests/hap.py	/^  def test_fm8(self):$/;"	m	class:Assignment3
+test_fm9	tests/grum.py	/^  def test_fm9(self):$/;"	m	class:Assignment3
+test_fm9	tests/hap.py	/^  def test_fm9(self):$/;"	m	class:Assignment3
+test_hargc1	tests/grum.py	/^  def test_hargc1(self):$/;"	m	class:Assignment3
+test_hargc1	tests/hap.py	/^  def test_hargc1(self):$/;"	m	class:Assignment3
+test_hargc10	tests/grum.py	/^  def test_hargc10(self):$/;"	m	class:Assignment3
+test_hargc10	tests/hap.py	/^  def test_hargc10(self):$/;"	m	class:Assignment3
+test_hargc2	tests/grum.py	/^  def test_hargc2(self):$/;"	m	class:Assignment3
+test_hargc2	tests/hap.py	/^  def test_hargc2(self):$/;"	m	class:Assignment3
+test_hargc3	tests/grum.py	/^  def test_hargc3(self):$/;"	m	class:Assignment3
+test_hargc3	tests/hap.py	/^  def test_hargc3(self):$/;"	m	class:Assignment3
+test_hargc4	tests/grum.py	/^  def test_hargc4(self):$/;"	m	class:Assignment3
+test_hargc4	tests/hap.py	/^  def test_hargc4(self):$/;"	m	class:Assignment3
+test_hargc5	tests/grum.py	/^  def test_hargc5(self):$/;"	m	class:Assignment3
+test_hargc5	tests/hap.py	/^  def test_hargc5(self):$/;"	m	class:Assignment3
+test_hargc6	tests/grum.py	/^  def test_hargc6(self):$/;"	m	class:Assignment3
+test_hargc6	tests/hap.py	/^  def test_hargc6(self):$/;"	m	class:Assignment3
+test_hargc7	tests/grum.py	/^  def test_hargc7(self):$/;"	m	class:Assignment3
+test_hargc7	tests/hap.py	/^  def test_hargc7(self):$/;"	m	class:Assignment3
+test_hargc8	tests/grum.py	/^  def test_hargc8(self):$/;"	m	class:Assignment3
+test_hargc8	tests/hap.py	/^  def test_hargc8(self):$/;"	m	class:Assignment3
+test_hargc9	tests/grum.py	/^  def test_hargc9(self):$/;"	m	class:Assignment3
+test_hargc9	tests/hap.py	/^  def test_hargc9(self):$/;"	m	class:Assignment3
+test_hubandend1	tests/grum.py	/^  def test_hubandend1(self):$/;"	m	class:Assignment3
+test_hubandend1	tests/hap.py	/^  def test_hubandend1(self):$/;"	m	class:Assignment3
+test_hubandend2	tests/grum.py	/^  def test_hubandend2(self):$/;"	m	class:Assignment3
+test_hubandend2	tests/hap.py	/^  def test_hubandend2(self):$/;"	m	class:Assignment3
+test_hubandend3	tests/grum.py	/^  def test_hubandend3(self):$/;"	m	class:Assignment3
+test_hubandend3	tests/hap.py	/^  def test_hubandend3(self):$/;"	m	class:Assignment3
+test_hubandend4	tests/grum.py	/^  def test_hubandend4(self):$/;"	m	class:Assignment3
+test_hubandend4	tests/hap.py	/^  def test_hubandend4(self):$/;"	m	class:Assignment3
+test_pargs1	tests/grum.py	/^  def test_pargs1(self):$/;"	m	class:Assignment3
+test_pargs1	tests/hap.py	/^  def test_pargs1(self):$/;"	m	class:Assignment3
+test_pargs2	tests/grum.py	/^  def test_pargs2(self):$/;"	m	class:Assignment3
+test_pargs2	tests/hap.py	/^  def test_pargs2(self):$/;"	m	class:Assignment3
+test_pargs4	tests/grum.py	/^  def test_pargs4(self):$/;"	m	class:Assignment3
+test_pargs4	tests/hap.py	/^  def test_pargs4(self):$/;"	m	class:Assignment3
+test_pargs5	tests/grum.py	/^  def test_pargs5(self):$/;"	m	class:Assignment3
+test_pargs5	tests/hap.py	/^  def test_pargs5(self):$/;"	m	class:Assignment3
+test_pargs7	tests/grum.py	/^  def test_pargs7(self):$/;"	m	class:Assignment3
+test_pargs7	tests/hap.py	/^  def test_pargs7(self):$/;"	m	class:Assignment3
+test_pargs8	tests/grum.py	/^  def test_pargs8(self):$/;"	m	class:Assignment3
+test_pargs8	tests/hap.py	/^  def test_pargs8(self):$/;"	m	class:Assignment3
+test_pg1	tests/grum.py	/^  def test_pg1(self):$/;"	m	class:Assignment3
+test_pg1	tests/hap.py	/^  def test_pg1(self):$/;"	m	class:Assignment3
+test_pg2	tests/grum.py	/^  def test_pg2(self):$/;"	m	class:Assignment3
+test_pg2	tests/hap.py	/^  def test_pg2(self):$/;"	m	class:Assignment3
+test_pg3	tests/grum.py	/^  def test_pg3(self):$/;"	m	class:Assignment3
+test_pg3	tests/hap.py	/^  def test_pg3(self):$/;"	m	class:Assignment3
+test_startfail1	tests/grum.py	/^  def test_startfail1(self):$/;"	m	class:Assignment3
+test_startfail1	tests/hap.py	/^  def test_startfail1(self):$/;"	m	class:Assignment3
+test_startfail2	tests/grum.py	/^  def test_startfail2(self):$/;"	m	class:Assignment3
+test_startfail2	tests/hap.py	/^  def test_startfail2(self):$/;"	m	class:Assignment3
+timeout	tests/grum.py	/^  timeout = 12 $/;"	v	class:Assignment3
+timeout	tests/hap.py	/^  timeout = 12 $/;"	v	class:Assignment3
+tokens	hub.h	/^    uint8_t* tokens;$/;"	m	struct:Players
+tokens	player.h	/^    uint8_t tokens;$/;"	m	struct:Player
+update_health	player.c	/^void update_health(struct Player* player, char playerLabel, char* input) {$/;"	f
+valid_number	koslShared.c	/^char* valid_number(char* numberString) {$/;"	f
+valid_roll	koslShared.c	/^bool valid_roll(char* roll, int rollLength) {$/;"	f
+win_check	hub.c	/^void win_check(struct Game* game, struct Players* players) {$/;"	f
+winner	hub.c	/^void winner(struct Players* players, int winner) {$/;"	f
